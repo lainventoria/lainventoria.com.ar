@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Novecento';
+  src: url("../fonts/Novecentowide-DemiBold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'TheanoOldStyle-Regular';
+  src: url("../fonts/TheanoOldStyle-Regular/TheanoOldStyle-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TheanoOldStyle-Regular/TheanoOldStyle-Regular.woff") format("woff"), url("../fonts/TheanoOldStyle-Regular/TheanoOldStyle-Regular.ttf") format("truetype"), url("../fonts/TheanoOldStyle-Regular/TheanoOldStyle-Regular.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: 'LMR';
+  src: url("../fonts/lmroman10-italic.eot") format("embedded-opentype"), url("../fonts/lmroman10-italic.woff") format("woff"), url("../fonts/lmroman10-italic.ttf") format("truetype"), url("../fonts/lmroman10-italic.svg") format("svg"); }
+
+@font-face {
+  font-family: 'Market Deco';
+  src: url("../fonts/Market_Deco.eot") format("embedded-opentype"), url("../fonts/Market_Deco.woff") format("woff"), url("../fonts/Market_Deco.ttf") format("truetype"), url("../fonts/Market_Deco.svg") format("svg"); }
+
+html, body {
+  font-family: "TheanoOldStyle-Regular", Georgia, serif;
+}
