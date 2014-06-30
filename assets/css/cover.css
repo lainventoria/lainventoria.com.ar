@@ -166,16 +166,17 @@ body {
   font-size: 300%;
 }
 
+#projects img,
 #proyectos img {
   width: 100px;
 }
 
 .container h1,
 #contacto p,
+#contact p,
+#services h2,
+#services p,
 #servicios h2,
 #servicios p {
   text-align: center
-}
-
-section#proyectos {
 }
