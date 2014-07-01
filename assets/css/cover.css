@@ -194,3 +194,9 @@ section {
   display: table-cell;
   vertical-align: middle;
 }
+
+.lang {
+  position: fixed;
+  top: 0;
+  left: 0
+}
