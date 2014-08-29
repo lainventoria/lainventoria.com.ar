@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" prefix="og: http://ogp.me">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.png">
+
+    <meta property="og:title" content="La Inventoría -- Cooperativa de Tecnologías Libres"/>
+    <meta property="og:url" content="http://lainventoria.com.ar/"/>
+    <meta property="og:locale" content="es_AR"/>
+    <meta property="og:site_name" content="La Inventoría"/>
+    <meta property="og:image" content="http://presupuestos.lainventoria.com.ar/assets/images/inventoría_logo-100x62.png" />
 
     <title>La Inventoría -- Cooperativa de Tecnologías Libres</title>
 
@@ -32,23 +38,27 @@
   </head>
 
   <body>
+    <div class="lang">
+      <p><a class="label label-info" href="index.en.html">English</a></p>
+    </div>
 
-    <div class="site-wrapper">
+    <div class="site-cover site-wrapper">
 
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
 
           <div class="inner cover">
-            <p class="lead"><img src="assets/img/logo.svg"/></p>
-            <h1 class="cover-heading">La Inventoría</h1>
-            <p class="lead">Cooperativa de Tecnologías Libres</p>
-            <p class="lead small">Somos un grupo de profesionales de
-            la tecnología que entendemos que el desarrollo colectivo y
-            las ideas compartidas llevan a una forma más justa y ética
-            de generar trabajo.</p>
+            <p class="h3"><img src="assets/img/logo.svg"/></p>
+            <h1 class="h1">La Inventoría</h1>
+            <p class="h3">Cooperativa Tecnológica</p>
+            <p class="h4 col-md-8 col-md-offset-2">Nos enfocamos en el
+            desarrollo de todo tipo de proyectos tecnológicos.
+            Apostamos por el software libre y entendemos que el
+            desarrollo colectivo y las ideas compartidas llevan a una forma
+            más justa y ética de generar trabajo.</p>
             <p class="lead">
-              <a href="#servicios" class="btn btn-lg btn-success">Servicios</a>
+              <a href="#servicios" class="btn btn-lg btn-success">Qué hacemos</a>
               <a href="#proyectos" class="btn btn-lg btn-primary">Proyectos</a>
               <a href="#contacto" class="btn btn-lg btn-info">Contacto</a>
             </p>
@@ -60,74 +70,99 @@
 
     </div>
 
-    <div class="container">
+    <div class="container site-wrapper">
 
     <section id="servicios">
       <head>
-        <h1>Servicios</h1>
+        <h1>Qué hacemos</h1>
       </head>
 
       <div class="row">
         <div class="col-md-4">
           <h2>
           <img class="img-circle" src="assets/img/app.png" /><br/>
-          Desarrollo de aplicaciones</h2>
+          Desarrollos a medida</h2>
 
-          <p class="lead">Desarrollamos aplicaciones para uso público y privado que
-          se adaptan a las necesidades y procedimientos de tu
-          emprendimiento</p>
-
+          <p class="h3">Creamos aplicaciones web y móviles buscando la mejor experiencia para el usuario y la seguridad de los
+          datos</p>
+          </br>
           <ul>
-            <li>Seguimiento de recursos, facturas, pedidos</li>
-            <li>Gestión de clientes y proveedores</li>
+            <li class="h4">Gestión de negocios y control financiero</li>
+            <li class="h4">Organización del flujo de trabajo</li>
+            <li class="h4">Plataformas de comercio electrónico</li>
           </ul>
         </div>
 
         <div class="col-md-4">
           <h2>
-          <img class="img-circle" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/150px-Heckert_GNU_white.svg.png" /><br/>
-          Administración de sistemas</h2>
+          <img class="img-circle" src="assets/img/gnu.png" /><br/>
+          Servidores</h2>
 
-          <p class="lead">Implementamos y optimizamos servidores
-          GNU/Linux seguros</p>
-
+          <p class="h3">Implementamos y optimizamos servidores seguros para
+          proveer todo tipo de servicio</p>
+          </br>
           <ul>
-            <li>Web</li>
-            <li>Correo</li>
-            <li>Mensajería</li>
-            <li>Streaming</li>
-            <li>Hosting</li>
-            <li>VPN</li>
+            <li class="h4">Servidor Web</li>
+            <li class="h4">Correo electrónico</li>
+            <li class="h4">Mensajería instantánea</li>
+            <li class="h4">Streaming de audio y video</li>
+            <li class="h4">Telefonía sobre IP</li>
+            <li class="h4">Redes privadas (VPN)</li>
+            <li class="h4">Comunidad / Red social</li>
           </ul>
         </div>
 
         <div class="col-md-4">
           <h2>
           <img class="img-circle" src="assets/img/p2p.png" /><br/>
-          Embebidos</h2>
+          Sistemas Autonomos</h2>
 
-          <p class="lead">Construimos redes en malla y sistemas de
-          telemetría</p>
-
+          <p class="h3">Aplicamos nuestras soluciones sobre todo tipo de
+          hardware para diseñar sistemas autónomos</p>
+          </br>
           <ul>
-            <li>RaspberryPi</li>
-            <li>Arduino</li>
-            <li>OpenWrt</li>
+            <p class="h4 text-left">Creamos:</p>
+            <li class="h4">Redes en malla</li>
+            <li class="h4">Sistemas de telemetría</li>
+            <p class="h4 text-left">Utilizando</p>
+            <li class="h4">RaspberryPi</li>
+            <li class="h4">Arduino</li>
+            <li class="h4">OpenWrt</li>
           </ul>
         </div>
       </div>
     </section>
 
+    </div>
+
+    <div class="container site-wrapper">
+
     <section id="proyectos">
       <h1>Proyectos</h1>
 
       <div class="media">
-        <a class="pull-left" href="http://juancarlosradio.hackcoop.com.ar">
-          <img class="media-object img-circle" src="http://wiki.hackcoop.com.ar/images/2/27/Juan_carlos_radio.jpg"/>
+        <a class="pull-left" href="http://wocky.com.ar">
+          <img class="media-object img-circle" src="assets/img/wocky.png"/>
         </a>
 
         <div class="media-body">
-          <h2 class="media-heading">Juan Carlos Radio</h2>
+          <h2 class="media-heading">
+            <a href="http://wocky.com.ar">Wocky</a>
+          </h2>
+          <p class="lead">Wocky es un servidor de mensajería abierto al
+          público, usando el protocolo Jabber/XMPP.</p>
+          </div>
+      </div>
+
+      <div class="media">
+        <a class="pull-left" href="http://juancarlosradio.hackcoop.com.ar">
+          <img class="media-object img-circle" src="assets/img/jcr.jpg"/>
+        </a>
+
+        <div class="media-body">
+          <h2 class="media-heading">
+            <a href="http://juancarlosradio.hackcoop.com.ar">Juan Carlos Radio</a>
+          </h2>
           <p class="lead">Juan Carlos Radio es una distribución GNU/Linux
           especializada para transmisión de audio por Internet.</p>
           </div>
@@ -135,30 +170,30 @@
 
 
       <div class="media">
-      <a class="pull-left" href="http://librevpn.org.ar">
-      <img class="media-object img-circle" src="assets/img/lvpn.png"/>
-      </a>
-      <div class="media-body">
-      <h2 class="media-heading"><a href="http://librevpn.org.ar">LibreVPN</a></h2>
-      <p class="lead">Las redes VPN permiten interconectar redes
-      privadas en ubicaciones remotas y accederlas como si estuvieran en
-      el mismo edificio.</p>
-      </div>
+        <a class="pull-left" href="http://librevpn.org.ar">
+          <img class="media-object img-circle" src="assets/img/lvpn.png"/>
+        </a>
+
+        <div class="media-body">
+          <h2 class="media-heading"><a href="http://librevpn.org.ar">LibreVPN</a></h2>
+          <p class="lead">Las redes VPN permiten interconectar redes
+          privadas en ubicaciones remotas y accederlas como si
+          estuvieran en el mismo edificio.</p>
+        </div>
       </div>
     </section>
+
+    </div>
+
+    <div class="container site-wrapper">
 
     <section id="contacto">
       <h1>Contacto</h1>
       <p class="lead"><a href="mailto:info@lainventoria.com.ar">info@lainventoria.com.ar</a></p>
     </section>
 
-    </div> <!-- container -->
+    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/docs.min.js"></script>
+    </div> <!-- container -->
   </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" prefix="og: http://ogp.me">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.png">
+
+    <meta property="og:title" content="La Inventoría -- Libre Technology Co-op"/>
+    <meta property="og:url" content="http://lainventoria.com.ar/index.en.html"/>
+    <meta property="og:locale" content="en"/>
+    <meta property="og:site_name" content="La Inventoría"/>
+    <meta property="og:image" content="http://presupuestos.lainventoria.com.ar/assets/images/inventoría_logo-100x62.png" />
 
     <title>La Inventoría -- Libre Technology Co-op</title>
 
@@ -32,23 +38,27 @@
   </head>
 
   <body>
+    <div class="lang">
+      <p><a class="label label-info" href="index.html">Castellano</a></p>
+    </div>
 
-    <div class="site-wrapper">
+    <div class="site-cover site-wrapper">
 
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
 
           <div class="inner cover">
-            <p class="lead"><img src="assets/img/logo.svg"/></p>
-            <h1 class="cover-heading">La Inventoría</h1>
-            <p class="lead">Libre Technology Co-op</p>
-            <p class="lead small">We're a group of technology
-            professionals who understand that collective development and
-            sharing of ideas led to a more just and ethical way of
-            working.</p>
+            <p class="h3"><img src="assets/img/logo.svg"/></p>
+            <h1 class="h1">La Inventoría</h1>
+            <p class="h3">Libre Technology Co-op</p>
+            <p class="h4 col-md-8 col-md-offset-2">Our focus is in
+            developing any kind of technology-related projects.  We're
+            committed to Libre Software and understand that collective
+            development and sharing of ideas led to a more just and
+            ethical way of working.</p>
             <p class="lead">
-              <a href="#services" class="btn btn-lg btn-success">Services</a>
+              <a href="#services" class="btn btn-lg btn-success">What we do</a>
               <a href="#projects" class="btn btn-lg btn-primary">Projects</a>
               <a href="#contact" class="btn btn-lg btn-info">Contact</a>
             </p>
@@ -60,72 +70,99 @@
 
     </div>
 
-    <div class="container">
+    <div class="container site-wrapper">
 
     <section id="services">
       <head>
-        <h1>Services</h1>
+        <h1>What we do</h1>
       </head>
 
       <div class="row">
         <div class="col-md-4">
           <h2>
           <img class="img-circle" src="assets/img/app.png" /><br/>
-          Application development</h2>
+          Custom application development</h2>
 
-          <p class="lead">We build applications for private and public
-          use that adapt to the needs and procedures of your business</p>
+          <p class="h3">We build web and mobile applications aiming for
+          the best user experience and data security</p>
 
           <ul>
-            <li>Resource, invoice and purchases</li>
-            <li>Client and supplier management</li>
+            <li class="h4">Business management and financial control</li>
+            <li class="h4">Workflow organization</li>
+            <li class="h4">E-Commerce platforms</li>
           </ul>
         </div>
 
         <div class="col-md-4">
           <h2>
-          <img class="img-circle" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/150px-Heckert_GNU_white.svg.png" /><br/>
-          System administration</h2>
+          <img class="img-circle" src="assets/img/gnu.png" /><br/>
+          Servers</h2>
 
-          <p class="lead">We implement and optimize secure GNU/Linux
-          servers</p>
+          <p class="h3">We implement and optimize secure servers for any
+          kind of service</p>
 
           <ul>
-            <li>Web</li>
-            <li>Email</li>
-            <li>Messaging</li>
-            <li>Streaming</li>
-            <li>Hosting</li>
-            <li>VPN</li>
+            <li class="h4">Web server</li>
+            <li class="h4">Email</li>
+            <li class="h4">Instant Messaging</li>
+            <li class="h4">Audio&amp;Video Streaming</li>
+            <li class="h4">IP Telephony</li>
+            <li class="h4">Private Networks (VPN)</li>
+            <li class="h4">Online Communities / Social Networks</li>
           </ul>
         </div>
 
         <div class="col-md-4">
           <h2>
           <img class="img-circle" src="assets/img/p2p.png" /><br/>
-          Embedded devices</h2>
+          Autonomous Systems</h2>
 
-          <p class="lead">We build mesh networks and telemetry systems</p>
+          <p class="h3">We apply our solutions to any kind of hardware
+          in order to design autonomous systems</p>
 
           <ul>
-            <li>RaspberryPi</li>
-            <li>Arduino</li>
-            <li>OpenWrt</li>
+            <p class="h4 text-left">We build:</p>
+            <li class="h4">Mesh Networks</li>
+            <li class="h4">Telemetry Systems</li>
+            <p class="h4 text-left">Using:</p>
+            <li class="h4">RaspberryPi</li>
+            <li class="h4">Arduino</li>
+            <li class="h4">OpenWrt</li>
           </ul>
         </div>
       </div>
     </section>
 
+    </div>
+
+    <div class="container site-wrapper">
+
     <section id="projects">
       <h1>Projects</h1>
 
       <div class="media">
-        <a class="pull-left" href="http://juancarlosradio.hackcoop.com.ar">
-          <img class="media-object img-circle" src="http://wiki.hackcoop.com.ar/images/2/27/Juan_carlos_radio.jpg"/>
+        <a class="pull-left" href="http://wocky.com.ar">
+          <img class="media-object img-circle" src="assets/img/wocky.png"/>
         </a>
 
         <div class="media-body">
-          <h2 class="media-heading">Juan Carlos Radio</h2>
+          <h2 class="media-heading">
+            <a href="http://wocky.com.ar">Wocky</a>
+          </h2>
+          <p class="lead">Wocky is an open instant messaging server,
+          using the Jabber/XMPP protocol.</p>
+          </div>
+      </div>
+
+      <div class="media">
+        <a class="pull-left" href="http://juancarlosradio.hackcoop.com.ar">
+          <img class="media-object img-circle" src="assets/img/jcr.jpg"/>
+        </a>
+
+        <div class="media-body">
+          <h2 class="media-heading">
+            <a href="http://juancarlosradio.hackcoop.com.ar">Juan Carlos Radio</a>
+          </h2>
           <p class="lead">Juan Carlos Radio is a GNU/Linux distribution
           specialized in audio streaming over Internet.</p>
           </div>
@@ -133,29 +170,29 @@
 
 
       <div class="media">
-      <a class="pull-left" href="http://librevpn.org.ar">
-      <img class="media-object img-circle" src="assets/img/lvpn.png"/>
-      </a>
-      <div class="media-body">
-      <h2 class="media-heading"><a href="http://librevpn.org.ar">LibreVPN</a></h2>
-      <p class="lead">VPN networks allow us to interconnect remote
-      networks and access them like they were on the same building.</p>
-      </div>
+        <a class="pull-left" href="http://librevpn.org.ar">
+          <img class="media-object img-circle" src="assets/img/lvpn.png"/>
+        </a>
+
+        <div class="media-body">
+          <h2 class="media-heading"><a href="http://librevpn.org.ar">LibreVPN</a></h2>
+          <p class="lead">VPN networks allow us to interconnect remote
+          networks and access them like they were on the same building.</p>
+        </div>
       </div>
     </section>
+
+    </div>
+
+    <div class="container site-wrapper">
 
     <section id="contact">
       <h1>Contact</h1>
       <p class="lead"><a href="mailto:info@lainventoria.com.ar">info@lainventoria.com.ar</a></p>
     </section>
 
-    </div> <!-- container -->
+    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/docs.min.js"></script>
+    </div> <!-- container -->
   </body>
 </html>
